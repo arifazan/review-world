@@ -3,6 +3,12 @@ import './App.css';
 
 const helloWorld = "Hello, World!";
 const user = 'michael';
+const additional = (
+  'h4',
+  {className: 'additional'},
+  'I\'m learning about github on windows too!'
+);
+
 function compare(user){
   if(user != ''){
      return "hello, " + user + "!"; 
@@ -35,6 +41,7 @@ function App() {
       <body>
           {checkValue}
           {divOpener}
+          {additional}
       </body>
     </div>
   );
